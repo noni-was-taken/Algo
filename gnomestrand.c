@@ -48,6 +48,7 @@ void gnomesort(int arr[], int size)
 }
 
 void strandsort(int arr[], int size){
+    //we aint sorting no empty list
     if (size <= 1){
         return;
     }
